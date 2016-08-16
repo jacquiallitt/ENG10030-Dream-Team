@@ -62,7 +62,10 @@ function setBaseTiltAngle()
 // the object being measured.  It uses the current smoothed tilt angle.
 function setApexTiltAngle()
 {
-    // Step 4: Record tilt angle 
+    displayMessage(firstName) 
+{
+    alert("Hello " + firstName + ", hope you like JavaScript functions!")
+}// Step 4: Record tilt angle 
     // display on screen using the displayMessage method
 }
 
