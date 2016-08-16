@@ -39,6 +39,11 @@ function setCameraHeightValue()
     // Step 3: Set camera height
     // check if input is a number and is positive
     // display on screen using the displayMessage method
+    var cameraHeight = prompt('Input estimated camera height in metres');
+if (typeof cameraHeight === 'string' && cameraHeight > 0)
+{
+console.log('Camera height is: ' + cameraHeight);
+}
 }
     
 // This function is called by a button to set the angle to the base of
