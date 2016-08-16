@@ -44,6 +44,10 @@ if (typeof cameraHeight === 'string' && cameraHeight > 0)
 {
 console.log('Camera height is: ' + cameraHeight);
 }
+else
+{
+console.log('Please enter a positive number');
+}
 }
     
 // This function is called by a button to set the angle to the base of
