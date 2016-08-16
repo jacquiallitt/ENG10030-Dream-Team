@@ -23,9 +23,15 @@ var cameraVideoPage = new CameraVideoPageController(
 // is intialised and ready to be used.
 function cameraVideoPageInitialised()
 {
-    // Step 1: Check for and intialise deviceMotion
+    function handleOrientation(event)
+    {
+            var absolute = event.absolute;
+            var alpha = event.alpha;
+            var beta = event.beta;
+            var gamma = event. gamma;
+    }// Step 1: Check for and intialise deviceMotion
 }
-    
+    console.log(absolute)
 // This function is called by a button to set the height of phone from the
 // ground, in metres.
 function setCameraHeightValue()
