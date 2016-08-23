@@ -30,8 +30,13 @@ function cameraVideoPageInitialised()
             var beta = event.beta;
             var gamma = event. gamma;
     }// Step 1: Check for and intialise deviceMotion
+    cameraVideoPage.setHeadsUpDisplayHTML(absolute);
+    cameraVideoPage.setHeadsUpDisplayHTML(alpha);
+    cameraVideoPage.setHeadsUpDisplayHTML(beta);
+    cameraVideoPage.setHeadsUpDisplayHTML(gamma);
+        
 }
-    console.log(absolute)
+   
 // This function is called by a button to set the height of phone from the
 // ground, in metres.
 function setCameraHeightValue()
