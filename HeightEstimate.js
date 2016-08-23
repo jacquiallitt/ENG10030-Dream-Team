@@ -48,7 +48,7 @@ function setCameraHeightValue()
 while (cameraHeight < 0)
 {
         cameraHeight= Number(prompt('Invalid Input. Please enter positive numbers'));
-        cameraVideoPage.displayMessage('Camera height: ' + cameraHeight,4000);
+        cameraVideoPage.displayMessage("'Camera height: ' + cameraHeight",4000);
 }    
 }
 // This function is called by a button to set the angle to the base of
