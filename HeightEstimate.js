@@ -50,6 +50,7 @@ while (cameraHeight < 0)
         cameraVideoPage.displayMessage('Invalid height. Please enter a positive number',4000);
         cameraHeight;
 }    
+}
 // This function is called by a button to set the angle to the base of
 // the object being measured.  It uses the current smoothed tilt angle.
 function setBaseTiltAngle()
