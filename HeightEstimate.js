@@ -47,8 +47,8 @@ function setCameraHeightValue()
     var cameraHeight = Number(prompt('Input estimated camera height from ground in metres'));
 while (cameraHeight < 0)
 {
-        cameraVideoPage.displayMessage('Invalid height. Please enter a positive number',4000);
-        cameraHeight;
+        cameraHeight= Number(prompt('Invalid Input. Please enter positive numbers'));
+        cameraVideoPage.displayMessage('Camera height: ' + cameraHeight,4000);
 }    
 }
 // This function is called by a button to set the angle to the base of
