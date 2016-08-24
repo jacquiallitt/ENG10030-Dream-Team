@@ -44,12 +44,22 @@ function setCameraHeightValue()
     // Step 3: Set camera height
     // check if input is a number and is positive
     // display on screen using the displayMessage method
-    var cameraHeight = Number(prompt('Input estimated camera height from ground in metres'));
+    var cameraHeight = prompt('Input estimated camera height from ground in metres');
+if (false === isNaN(cameraHeight)){
 while (cameraHeight < 0)
 {
         cameraHeight= Number(prompt('Invalid Input. Please enter positive numbers'));
         cameraVideoPage.displayMessage("'Camera height: ' + cameraHeight",4000);
-}    
+}   
+}
+else 
+{
+       while (true===isNaN(cameraHeight))
+       {
+        cameraHeight = prompt('Invalid input. Please input estimated camera height from ground in metres');
+        cameraVideoPage.displayMessage("'Camera height: ' + cameraHeight",4000);
+}
+}
 }
 // This function is called by a button to set the angle to the base of
 // the object being measured.  It uses the current smoothed tilt angle.
